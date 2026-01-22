@@ -1,0 +1,441 @@
+Seja muito bem vindo a mais um vídeo e nesse vídeo aqui eu quero repassar os conteúdos que nós vamos
+
+aprender sobre Angular.
+
+Eu vou dar uma passada geral aqui, mas pode ficar tranquilo que no início de cada sessão vai ter uma
+
+explicação sobre que aquela sessão se trata.
+
+Bom, então vamos começar aqui.
+
+Basicamente nós vamos ter a primeira sessão que seria de instalações necessárias que você vai precisar
+
+para continuar com o curso.
+
+Por exemplo, vscode, git npm e angular CLI.
+
+Nós vamos fazer essas instalações depois.
+
+Nós já vamos começar com o desenvolvimento aqui no Angular nessa segunda sessão de fundamentos do Angular.
+
+E note que as sessões de Angular, mesmo focadas no Angular, vai ter o nome de fundamentos do Angular
+
+Traço e aí sim o tópico que nós vamos ver naquela sessão.
+
+Já a parte de conteúdo extra vai ter o nome de conteúdo extra e aí sim o tópico daquele daquela sessão
+
+em específico.
+
+Então a nossa primeira sessão do Angular em si vai se chamar Componentes e Estilizações.
+
+Aqui nós vamos aprender o que é um componente, como criar um componente dentro de um projeto angular
+
+e também como criar componentes filhos.
+
+Além disso, nós vamos ver aqui vamos ter alguns vídeos como funciona a interpolação, que é uma funcionalidade
+
+muito importante do Angular e vamos ver também como carregar o template do componente de diferentes
+
+formas dentro de um arquivo TypeScript em um arquivo HTML separado.
+
+A mesma coisa para os estilos.
+
+Vamos ver como carregar o estilo do componente dentro do arquivo TypeScript e também em um arquivo separado
+
+em um arquivo CSS separado.
+
+Além disso, nós já vamos ver alguns conteúdos que podem ser considerados avançados, que seria o seletor
+
+NG deep e também o seletor dos pontos host.
+
+Vamos ver como utilizar eles em conjunto também, mas vai ser bem explicadinho, vai ser bem detalhado.
+
+Não tenha medo dessa seção aqui nesse conteúdo.
+
+E vamos finalizar essa sessão vendo os diferentes tipos de views, encapsular com None Emulator e também
+
+o Shadow Dom.
+
+Então vai ser um conteúdo bem legal e aqui você vai saber como criar um componente e estilizar ele,
+
+como carregar os estilos desse componente.
+
+É basicamente sobre isso que se trata essa primeira sessão.
+
+Bom, vamos para a próxima que seria a sessão de Binding Diretivas, templates e decorators.
+
+Aqui nós já vamos deixar o nosso componente mais dinâmico, então nós vamos ver como fazer Property
+
+Binding.
+
+Vamos ver também um conteúdo bem interessante, a diferença de atributos e propriedades de um elemento
+
+HTML.
+
+Esse é um conceito muito importante.
+
+Eu não vejo em todo lugar falando sobre isso, então é um vídeo bem importante mesmo.
+
+Vamos ver então o que é Property Binding Event Binding Attribute Binding Também fazer o CSS Style Binding,
+
+CSS Class Binding.
+
+Tudo isso daqui é para deixar o elemento HTML do componente dinâmico, para eu mudar as classes dele,
+
+os estilos CSS dele, mudar valor das propriedades desse elemento HTML e assim por diante.
+
+Vai estar tudo bem explicadinho aqui nessa seção.
+
+Vamos ver como funciona o decorator arroba input e também o arroba output utilizando set e get.
+
+Também é uma funcionalidade bem interessante para você interceptar quando o valor de um input muda.
+
+Vamos ver também aqui vamos ter um mini projetinho de três vídeos que nós vamos praticar a nossa componente
+
+ação.
+
+Vamos criar um mini projeto aqui de cards e nós vamos praticar aqui como fazer uma componente Ação referenciando
+
+componentes, filhos passando inputs também para a gente poder praticar o que nós vimos nessa sessão
+
+no começo dessa sessão e na sessão anterior também.
+
+Além disso, nós vamos ver como fazer o Two a Data Binding.
+
+Vamos ver como utilizar a diretiva estrutural ng if a diretiva estrutural ng forks são as mais importantes.
+
+Além disso, vamos utilizar o NG Form com componentes filhos e também a diretiva ng Style e NG class
+
+e uma introdução aos pipes.
+
+Então aqui nós vamos aprender como deixar os elementos do nosso componente lá no template do nosso componente
+
+Dinâmicos, funcionalidades extremamente importantes do Angular.
+
+E logo depois dessa sessão nós vamos fazer uma prática.
+
+Vamos ter um projeto aqui de filtro de lista de usuários, que é um projeto aqui de 05h00, bem completinho
+
+mesmo, que nós vamos praticar tudo o que nós aprendemos nas duas sessões anteriores.
+
+Então, aqui, basicamente esse daqui é o filtro de lista de usuários.
+
+Essa é a sessão, na verdade, e vamos fazer tudo bem separadinho aqui, passo a passo para não ficar
+
+um conteúdo cheio de conteúdo, na verdade.
+
+O vídeo cheio de conteúdo vai ser algo bem separadinho para você acompanhar sem muitas dificuldades.
+
+E aqui nessa seção eu vou apresentar como ele vai ser feito, o layout final e etc.
+
+Então pode ficar tranquilo.
+
+Depois da finalização desse projeto, nós vamos avançar um pouco mais.
+
+Então nós vamos ter aqui uma seção de diretivas, templates e decorators dinâmicos.
+
+Vamos aprender sobre a criação de templates Variables Como acessar um HTML dentro do seu componente
+
+utilizando o Decorator a View Child.
+
+Vamos acessar componentes filhos com a View Child.
+
+Além disso, eu vou mostrar como funciona a configuração static desse decorator, View child e assim
+
+por diante.
+
+E vamos adentrar um pouco mais nas diretivas.
+
+Então nós vamos ver como criar as nossas próprias diretivas para fazer um elemento ficar dinâmico baseado
+
+na lógica dessa diretiva.
+
+Assim, a gente consegue remover um pouco de lógica do nosso componente e deixar isolado em uma diretiva.
+
+Isso faz com que a manutenção do seu projeto fique mais fácil.
+
+Tá bom porque não vai ficar muito código, tudo dentro do componente.
+
+A ideia é você tirar esse código de dentro do componente e separar eles para o seu componente ficar
+
+com o código bem enxuto.
+
+Então vamos ver aqui.
+
+Em relação a diretivas personalizadas, como utilizar o host bidding, como utilizar o host listener,
+
+como funciona também o elemento graph para você poder acessar o template do seu componente e uma funcionalidade
+
+muito importante utilizando o Element Graph.
+
+Em Diretivas in Services é o problema também que você pode ter de utilização do element, que seria
+
+um problema de XSS.
+
+Nós vamos explorar esse problema aqui e como resolver esse problema utilizando o Renderer Tool do Angular
+
+também, que seria para acessar o template do seu componente, mas de uma outra forma, evitando assim
+
+alguns problemas de hackers que nosso sistema poderia ter.
+
+Tá bom?
+
+Então essa daqui é a nossa seção.
+
+Nós já vamos avançar um pouquinho mais na parte de diretivas.
+
+Vamos ter um outro projeto, já que seria o projeto de Cards Parte um.
+
+Então vamos ter 1/1 dele e depois nós vamos voltar nele no futuro, nessa primeira parte aqui.
+
+E ela é bem importante.
+
+É uma das seções mais importantes aqui do curso.
+
+Eu vou te dar alguns exercícios que é importante que você faça.
+
+Eu vou explicar certinho nessa seção, mas vai ser realmente para você conseguir praticar, para você
+
+criar uma mentalidade de uma boa componente ação de projeto, porque isso no dia a dia vai fazer toda
+
+a diferença.
+
+Quando você vai criar um projeto bem estruturado, organizado ou um projeto que no futuro vai ser de
+
+difícil manutenção.
+
+Então aqui eu quero já criar essa mentalidade em você já fazer com que você pratique.
+
+Então nós vamos criar o layout desse projeto em HTML e CSS em SASS puro.
+
+Depois nós vamos passar esse layout para um projeto angular e depois nós vamos refatorar ele para evitar
+
+a duplicação de código.
+
+É uma seção muito interessante mesmo, muito importante.
+
+E aí nós vamos voltar aqui com os conteúdos de Angular.
+
+Vamos ver como fazer projeção de conteúdo e estilização com diretivas.
+
+Então essa daqui já é um conteúdo um pouquinho mais avançado que você vai ver bastante esse conceito
+
+de projeção de conteúdos, por exemplo, na biblioteca Angular material.
+
+Eu vou mostrar isso logo no primeiro vídeo dessa seção.
+
+Eu vou fazer essa introdução e como que o Angular material utiliza a projeção de conteúdo nos seus componentes?
+
+Então vamos ver como fazer toda essa projeção de conteúdos realmente para deixar o nosso código, o
+
+código do nosso projeto menos repetitivo, Essa que é a ideia, tá bom.
+
+E vamos ver como utilizar as diretivas também para estilizar componentes.
+
+Vai ficar bem legal aqui.
+
+Essa seção é uma seção de fato avançada.
+
+Tá que sinceramente, eu nunca vi um curso explicando da maneira que eu vou explicar aqui, então é
+
+um diferencial desse curso, com certeza.
+
+E aí nós vamos voltar para o nosso projeto de cards, Então vamos ter aqui um projeto Projeto de Cards
+
+Parte dois aplicando projeção de conteúdos e diretivas.
+
+Nós vamos pegar o projeto final gerado a partir da parte um desse painel de cards e vamos reestruturar
+
+ele para utilizar diretivas.
+
+E aí eu vou querer que você compare a solução da parte um e a solução da parte dois.
+
+Qual é melhor?
+
+Na verdade não tem melhor ou pior, vai ter a forma que melhor se encaixa no seu projeto.
+
+Mas é importante você fazer essa distinção entre os dois para saber como que você utilizaria no seu
+
+dia a dia.
+
+E aí nós vamos aqui para alguns tópicos avançados de projeção de conteúdo, tá bom?
+
+Como carregar aqui o NG template o ng container também é.
+
+A diferença entre os dois, Como utilizar o NG templates outlet passando um template via input, tudo
+
+isso junto com a projeção de conteúdo.
+
+Então conteúdo aqui bem legal também.
+
+Seria um tópico aqui um pouquinho mais avançado.
+
+Nesse caso aqui, até nas outras seções também.
+
+Eu não quero que você tenha a mentalidade de decorar as informações, eu quero que você entenda elas.
+
+Eu quero que você saiba que elas existem para no futuro você poder vir ver o vídeo aqui, relembrar
+
+elas e aplicar no seu projeto.
+
+Então, conteúdo bem legal.
+
+E aí, depois desse conteúdo, finalizando esse conteúdo de projeção de conteúdos, nós vamos para os
+
+pipes.
+
+São mais de 06h00 de conteúdos de pipes.
+
+É realmente um conteúdo diferenciado.
+
+Nós vamos ver como criar um pipe, a sintaxe básica dele, como criar o seu pipe personalizado.
+
+Vamos ver os principais pipes que o Anglo e disponibiliza para gente, por exemplo, o Date pipe.
+
+As configurações que nós vamos fazer nesse date pipe também de Location de Injection Tokens.
+
+Vamos ver como funciona o decimal pipe.
+
+Vamos formatar ele o location também.
+
+Nós vamos modificar o currency pipe, a utilização do async pipe com observable e também com promises,
+
+então é bem interessante.
+
+E aqui no caso do Observable, nós vamos utilizar esse pipe em um exemplo com o objeto e um exemplo
+
+com array e aí sim depois nós vamos ver como utilizar ele com promises.
+
+Vamos ver a diferença de pipes puros e impuros.
+
+Isso é muito importante e aqui um dos vídeos mais importantes dessa seção, que seria a diferença de
+
+você utilizar um pipe ou criar uma função no seu componente, porque um pipe ele serve basicamente para
+
+manipular um dado dentro do meu template.
+
+Basicamente isso e você poderia ter o mesmo resultado que você tem com o pipe, criando uma função dentro
+
+do seu componente, dentro da classe do seu componente.
+
+Só que tem uma diferença extremamente importante de performance entre os dois, e eu vou explicar isso
+
+nesse vídeo.
+
+Vamos ver como utilizar os pipes para fazer Property Binding dinâmicos também bem interessante como
+
+tratar erros estados em pipes puros e impuros.
+
+Vou fazer um desafio aqui para você e aí eu vou apresentar esse desafio e eu vou criar esse desafio
+
+nesse vídeo.
+
+É um vídeo de cerca de 01h00, mas o conteúdo dele é muito legal porque nós vamos praticar quase tudo
+
+o que nós aprendemos aqui dentro dessa seção.
+
+Então vale muito a pena ver esse vídeo e fazer o desafio junto comigo.
+
+E por fim, nós vamos finalizar a sessão fazendo uma refatoração no nosso desafio, só que utilizando
+
+o Async Pipe.
+
+Aqui no vídeo você vai entender melhor.
+
+É um conteúdo diferenciado de verdade aqui de Pipes mesmo.
+
+Ficou muito, muito legal mesmo.
+
+E aí, finalizando o Pipes, nós vamos aprender template Driven Forms, que é um conteúdo que você não
+
+vê em qualquer lugar.
+
+Se você pesquisar no Google sobre forms relacionados a Angular, criação de formulários com Angular,
+
+a maioria vai ser com React forms.
+
+Então, muitas vezes você não sabe criar muito bem templates driven forms, mas é muito importante que
+
+você saiba criar templates driven forms.
+
+Você tem uma noção?
+
+E aqui nós vamos explorar bastante eles com mais de 05h00 de conteúdo de templates driven forms.
+
+Então vamos ver como utilizar a diretiva NG Model, que é a diretiva principal relacionada a template
+
+Driven forms.
+
+Como verificar um estado de um form control?
+
+Vamos ver a diferença da instância de um elemento HTML para a instância de um form control que é muito
+
+importante você saber isso.
+
+Como mostrar mensagens de erros personalizadas baseados no estado de um controle baseado no estado de
+
+um campo do formulário.
+
+E também vamos ver como utilizar a diretiva ng Model nos principais elementos de um formulário textarea,
+
+select, radio, button checkbox e também o funcionamento da diretiva NG form Fazer o submit de um formulário,
+
+customizar essas diretivas de NG form e NG model também.
+
+Então tem muita coisa legal nessa seção.
+
+Vamos criar validadores síncronos e assíncronos também personalizados, então tem muito conteúdo legal
+
+de verdade.
+
+Essa seção aqui está completa para você aprender template de uniformes.
+
+E depois dessa seção de template Given Forms, nós vamos criar um projetinho para realmente praticar
+
+a criação de formulários.
+
+Esse projeto aqui é o mais completo do curso até então.
+
+Nessa primeira versão que eu vou estar lançando do curso que seria o projeto Formulário de Usuários
+
+Template Driven Forms.
+
+Quase 09h00 de um projeto bem completo mesmo.
+
+Nós vamos criar um formulário cheio de validadores com validadores síncronos.
+
+Vamos validar senha se a senha está média, forte ou fraca, Padrão de e-mail se um usuário que eu digitei
+
+no campo já está sendo utilizado ou não baseado em um response HTTP, então tem muito conteúdo.
+
+Vamos ver como trabalhar com clones de objetos para não perder o tracking do estado inicial daquele
+
+objeto.
+
+E também vamos ver como ver o antes e o depois de um objeto depois das alterações.
+
+Ficou bem completo esse projeto aqui.
+
+Bom, esse é o conteúdo de Angular do curso.
+
+Nessa primeira versão de lançamento tem muita, mas muita coisa que vai ser adicionada ainda, então
+
+não se preocupe, Mas aqui já são mais de 50 horas de puro conteúdo, interessante conteúdo que realmente
+
+você vai conseguir levar para o seu dia a dia, incrementar os seus projetos pessoais ou até mesmo os
+
+projetos da sua empresa.
+
+Bom, espero que você tenha gostado desse vídeo, Espero que você já comece aqui com os estudos, que
+
+você esteja animado para aprender.
+
+Faça na ordem aqui.
+
+Eu te aconselho a fazer na ordem, mesmo que você já tenha mais experiência.
+
+Porque tem muito detalhezinho que a gente acaba esquecendo ao longo dos anos e é bom sempre rever.
+
+Eu tenho certeza que esse conteúdo aqui vai te transformar em um desenvolvedor angular melhor.
+
+Bom, até o próximo vídeo, então.
