@@ -1,0 +1,447 @@
+Seja muito bem vindo a mais um vídeo e nesse vídeo aqui eu quero te explicar como que está funcionando
+
+a parte de conteúdos extras.
+
+Bom, tem bastante conteúdo extra aqui.
+
+Esse é um dos diferenciais do curso e são conteúdos que eu selecionei que envolvem o Angular que estão
+
+ao redor do Angular.
+
+O Angular é um framework e por detrás dos panos ele utiliza várias tecnologias.
+
+Então é importante caso você queira evoluir como desenvolvedor front end, saber também desses tópicos.
+
+E claro que você não precisa ter todos os detalhes em mente, não.
+
+Eventualmente você vai esquecer uma coisa ou outra, mas pelo menos você saber que esses tópicos existem
+
+é importante para, caso você precise utilizá los no futuro, você volte aqui no curso ou pesquise na
+
+internet e aí você vai saber melhor os detalhes e vai implementar o que você precisa.
+
+Mas basicamente os conteúdos extras, eles vão vir depois do conteúdo de Angular.
+
+Então aqui no caso, até agora na sessão 14, nós vamos começar com o conteúdo extra.
+
+Então no título desses conteúdos vai ser conteúdo extra, dois pontos e aí o tópico do assunto ali,
+
+no caso, nós vamos começar aqui com o HTTP em detalhes.
+
+Mas antes de eu entrar aqui em todos os conteúdos, eu quero falar que esses conteúdos extras não são
+
+para te explicar.
+
+Por exemplo, aqui TypeScript do zero não são.
+
+São tópicos de TypeScript que eu selecionei tópicos avançados que eu vejo que vai fazer uma diferença
+
+se você souber sobre ele.
+
+Se você tiver uma noção sobre eles, é de fato e sinceramente, são conteúdos bem legais mesmo.
+
+Não é em qualquer lugar que você vai ver esses conteúdos organizados da forma que está aqui explicados
+
+de forma didática e de fato, são conteúdos avançados.
+
+Tá bom?
+
+Então vamos lá.
+
+O primeiro conteúdo extra é o de HTTP em detalhes, Então nós vamos ver.
+
+Deixa só subir um pouquinho como funciona a estrutura de um HTTP?
+
+Como é feito um HTTP, uma request HTTP?
+
+Na verdade, você vai aprender também sobre o método get post delete path put.
+
+Utilizando aqui no caso o Postman vai ver como executar o XMLHttpRequest com JavaScript, que na verdade
+
+é uma funcionalidade para fazer requests do JavaScript.
+
+Como utilizar a funcionalidade de Fetch API do JavaScript também e como utilizar a biblioteca Axios,
+
+que é para fazer chamadas HTTP também.
+
+Ela abre, ela vai abstrair algumas coisas e vai tornar essa chamada HTTP mais fácil.
+
+Tá bom, ela vai trazer novas funcionalidades.
+
+Depois nós vamos para a parte de conteúdo extra de noções de back end.
+
+Bem legal também você saber disso daqui, pelo menos saber como funciona o back end de uma forma geral,
+
+para no seu dia a dia você saber se comunicar com a equipe de back end da sua empresa.
+
+Isso é extremamente importante.
+
+Então aqui você vai saber o que é uma API, o que que é um REST API, o que é um JSON e um Ajax também.
+
+Além disso, você vai ter a parte de a diferenças de monolito e microserviços.
+
+Vamos simular a criação de um monolito e também vamos simular a criação de microsserviços.
+
+Então são vídeos bem legais, bem interessantes.
+
+Vamos para outra parte de conteúdo extras, que seria a noção de cores.
+
+Essa sessão aqui tá show de bola, de verdade.
+
+Então aqui nós vamos ver tudo que envolve o CORS.
+
+Vai ter vários cenários aqui.
+
+Então, por exemplo, vamos fazer a configuração de um ambiente.
+
+Para que que serve o CORS?
+
+Como funciona o flight que o browser faz que é uma request de flight que ele faz uma visão geral dos
+
+headers de request do flight e também uma visão geral dos headers de response do flight.
+
+Vamos ver também uma visão geral do header de response do Access Control Allow Origin e vamos estudar
+
+alguns casos aqui.
+
+Os casos estão descritos no vídeo.
+
+Você vai entender mais cada um desses casos.
+
+Então eu trouxe, por exemplo, aqui eu tenho três casos.
+
+Depois nós vamos ver uma visão geral dos headers de response do Access control Allow methods.
+
+Vamos ver alguns casos envolvendo ele, depois vamos dar uma olhadinha.
+
+Deixa eu só encontrar aqui uma visão geral do header de Response Access control allow headers, alguns
+
+casos envolvendo ele, casos de bloqueio também e assim por diante.
+
+Todos os headers de cores.
+
+Então é uma sessão aqui de verdade.
+
+Muito, muito legal mesmo.
+
+Eu nunca vi um curso falando de cores dessa forma aqui nós vamos ver na prática como funciona o CORS,
+
+Como fazer uma chamada HTTP, como bloquear uma request utilizando o CORS.
+
+Cara de verdade, bem legal esse conteúdo.
+
+Vamos ver aqui também como o browser funciona, como que ele renderiza uma página HTML todos os passos
+
+até fazer a renderização de uma página HTML, porque não é mágica.
+
+Por exemplo, a gente está vendo aqui o curso, o site da Udemy, mas não é mágica que o browser traz
+
+esse site daqui.
+
+Ele passa por vários processos até a parte de renderização final desse site.
+
+Nós vamos ver cada uma dessas fases.
+
+Vamos ver como funciona o Critical Rendering Path.
+
+Vamos ver a primeira fase de renderização de um site, depois vamos ver a segunda, a terceira e a quarta
+
+fase e assim por diante.
+
+Além disso, vamos dar uma olhada.
+
+Vamos estudar como funciona o render blocking para CSS, o caso de render blocking para JavaScript e
+
+como utilizar a API do DOM para acessar os nós da nossa página utilizando o DOM API que o browser disponibiliza
+
+para gente.
+
+Depois vamos para a parte de CSS.
+
+Aqui tem alguns vídeos bem legais também de CSS e uma visão geral.
+
+Quem cria as especificações é o suporte ao browser envolvendo o CSS.
+
+Quem é que dá a ideia de novas funcionalidades para o CSS?
+
+Vamos ver a diferença de inline versus external versus internal CSS e também como são tratados erros
+
+no código.
+
+Então note que aqui essa sessão extra não é para te ensinar a CSS por exemplo, do zero, não são tópicos
+
+que eu selecionei que eu acho bem interessante você ter uma noção sobre ele, saber que eles existem
+
+e tópicos avançados que você não vai ver em qualquer lugar.
+
+Então de fato, aqui são conteúdos bem interessantes mesmo, que de fato vai complementar o seu estudo
+
+e vai te tornar um desenvolvedor front end melhor.
+
+Vamos para o próximo que seria noção de SASS Então, aqui essa seção ficou bem show de bola também ficou
+
+bem legal porque nós vamos criar um ambiente SASS do zero, então nós vamos utilizar ali o NPM para
+
+criar todo um ambiente de SASS para ele fazer a compilação do nosso código SASS e transformar para CSS
+
+e ter o nosso site.
+
+O nosso código final.
+
+Ficou bem legal essa seção.
+
+Depois nós vamos ter a padronização BM com SASS, que é uma padronização de código SASS que eu por exemplo
+
+utilizo no meu dia a dia.
+
+Só ele, porque deixa o seu código SASS, o seu código CSS muito mais organizado.
+
+Então nós vamos ver como que ele funciona aqui certinho.
+
+Quais são os princípios do BM Blocos Elementos Modify.
+
+Um exemplo de implementação incorreta do BM.
+
+Um outro exemplo de implementação incorreta do BM e depois uma implementação correta dele e mais alguns
+
+conteúdos também bem interessantes.
+
+Vale muito a pena dar uma olhada nessa seção e você vai notar que nos projetos de Angular que nós fizermos
+
+eu vou estar utilizando esse padrão de BM.
+
+Tá bom, então nós vamos conseguir praticar bastante ele.
+
+Depois do BM nós vamos ter o conteúdo extra de JavaScript.
+
+Olha, de verdade, sensacional esse conteúdo também ficou bem legal.
+
+Eu vou explicar aqui a história do JavaScript, como funciona as versões do JavaScript, as versões
+
+passadas, o processo de compilação, interpretação e just in time.
+
+Vou comparar também com a compilação do Java da linguagem Java.
+
+Além disso, nós vamos ver conteúdos de fato bem avançados.
+
+Por exemplo, como funciona a execução de códigos JavaScript, memory heap, call stack.
+
+Além disso, nós vamos ter aqui.
+
+Na verdade, deixa eu só dar uma olhadinha nessa parte de execução de código.
+
+Nós vamos ter diversos vídeos, então deixa só dar uma olhadinha melhor.
+
+Um, dois, três, quatro, cinco, seis sete vídeos só sobre execução de código.
+
+Então nós vamos ver.
+
+Voltando novamente.
+
+Memory Heap Call Stack JavaScript Runtime Environment.
+
+Vamos testar alguns fluxos para realmente praticar a teoria que nós aprendemos.
+
+Então vamos ter aqui quatro exemplos do fluxo.
+
+Vamos criar fluxos de código.
+
+Vamos criar quatro fluxos de código e ver como o JavaScript executa esses fluxos.
+
+Então ficou uma série de vídeos bem legal também.
+
+Além disso, nós vamos ver sobre programação funcional.
+
+Vamos ter alguns vídeos aqui, cerca de três vídeos sobre programação funcional que são tópicos bem
+
+importantes functionreturn e closure in order, function e callbacks compose e pipe, que são conteúdos
+
+que você acaba utilizando no seu dia a dia diversas vezes.
+
+Talvez você utilize, mas não saiba o nome das estratégias que você utiliza, mas por detrás dos panos,
+
+ali no seu dia a dia, você estar utilizando esses conceitos toda hora e é importante você saber como
+
+eles funcionam, pelo menos ter uma noção geral, porque os detalhes, lógico, você vai acabar esquecendo.
+
+Isso é normal, acontece com todo mundo, acontece comigo, mas pelo menos você saber que eles existem
+
+é bem interessante.
+
+Temos aqui também vídeos sobre Poly Films, então realmente assunto avançado é bem interessante.
+
+O que é um poli fio?
+
+Objetos com funções utilizando a palavrinha especial do JavaScript, o this.
+
+Vamos ver como essa palavrinha funciona.
+
+Vamos ver funções de call, apply e bind.
+
+Comportamento do Discworld da palavrinha diz com funções regulares e também o comportamento da palavrinha
+
+Discworld com Arrow Functions.
+
+Vamos ver também na parte de Poly Fields sobre Prototype, assunto realmente avançado de JavaScript
+
+e vamos recriar um Poly fio que seria um perfil para a função de filtro do JavaScript.
+
+Cara.
+
+De verdade.
+
+Conteúdo muito, muito, muito legal mesmo.
+
+E vamos finalizar a seção dando uma olhada geral nos módulos de ES6.
+
+Vamos para o próximo que seria sobre TypeScript.
+
+Aqui eu fui a fundo nas tipagem do TypeScript.
+
+Só conteúdo avançado.
+
+Vou começar com o conteúdo mais básico aqui explicando as tipagem String number boolean array objeto
+
+in.
+
+E depois nós vamos ver como criar tipagem dinâmicas.
+
+E muito conteúdo legal.
+
+Então tem várias coisas aqui.
+
+Vamos recriar algumas tipagem do Angular então ficou um conteúdo bem interessante, realmente avançado.
+
+Vamos ver também, por exemplo.
+
+Deixa só encontrar o vídeo certinho como funciona Decorators, que é uma funcionalidade do TypeScript
+
+muito importante que nós utilizamos no Angular toda hora não utiliza.
+
+Nós utilizamos, por exemplo, arroba component arroba input arroba pipe, arroba, ng, model, etc.
+
+São vários decorators, Então aqui nós vamos ver como eles funcionam por detrás dos panos com TypeScript
+
+puro.
+
+Então ficou uma série de vídeos bem legais.
+
+São cerca de.
+
+Deixa eu dar uma olhada, cerca de oito vídeos só sobre decorators e aqui a gente vai a fundo mesmo.
+
+É um conteúdo muito interessante.
+
+E vamos finalizar aprendendo como configurar o arquivo do TypeScript.
+
+O arquivo que tem toda a configuração de compilação do TypeScript e é importante você saber como ele
+
+funciona, pelo menos ter uma noção geral nele, porque quando nós criamos um projeto angular, aquele
+
+arquivinho vai estar presente.
+
+As vezes você vai precisar configurar ele dependendo da sua necessidade.
+
+Então aqui nós vamos dar uma passada geral em como ele funciona.
+
+Ficou bem legal também.
+
+Vamos finalizar?
+
+Deixa só dar uma olhada.
+
+Como converter um JSON para classes ou interfaces, que é um tópico também muito importante.
+
+O próximo tópico seria aqui sobre Build System, então vamos ver como o Grunt funciona.
+
+Bom, o Grunt não está diretamente ligado ao Angular, mas também é muito importante você saber como
+
+funcionam os Build Systems, porque com isso você vai conseguir comparar o Grunt com o Webpack, por
+
+exemplo, que é o que o Angular utiliza.
+
+Então você saber a diferença entre um e outro é muito importante para você criar uma senioridade no
+
+assunto de desenvolvimento web atual, Porque hoje o desenvolvimento web não é só criar uma telinha
+
+ali, um site tem muita coisa por trás, é você saber as diferenças das ferramentas é muito importante
+
+e build System é um tópico muito importante.
+
+Então nós vamos ver aqui como criar um ambiente utilizando o Grunt.
+
+Criar um ambiente em Grunt.
+
+Na verdade, vamos ver aqui os plugins de forma separada do Grunt e depois de estudar os plugins de
+
+forma individual, nós vamos criar um projetinho para criar um ambiente em Grunt.
+
+Mesmo com os plugins do Grunt, que vai ficar bem legal, então é bem interessante você dar uma olhada.
+
+Vamos dar uma olhada em como funciona o Webpack, as diversas funcionalidades dele também que ele traz
+
+para gente.
+
+Claro que o Webpack ele é imenso, ele tem diversas ferramentas aqui.
+
+Eu selecionei algumas que eu acho interessante você ter uma noção.
+
+E por fim, de conteúdo extra, que é um dos meus xodós aqui é a parte de Package Manager que seria
+
+o NPM.
+
+Então aqui nós vamos ver conteúdos bem bem interessantes mesmo sobre npm, como utilizar ele, o problema
+
+de não utilizar o npm, a instalação do npm.
+
+Claro, uma visão geral da instalação npm vs grunt a pasta node modules e o arquivo git.
+
+Ignore como fazer auditorias do npm nos pacotes.
+
+O que são packages e libraries A estrutura do package.json A estrutura do pack de local JSON.
+
+A parte de Symantec Virgin Como funciona as regrinhas de versões do NPM que a gente vê toda hora lá
+
+no package.json do Angular?
+
+Aquelas regrinhas nós vamos ver como elas funcionam.
+
+Toda essa parte envolvendo o Patch Minor Major, então é bem interessante esse conteúdo.
+
+Vamos ver como funciona o npm install npm update Como navegar entre versões instalações de pacotes globais.
+
+Aqui um vídeo muito, muito legal mesmo.
+
+Como o Windows executa scripts globais na máquina.
+
+Isso é bem legal.
+
+Como criar isso?
+
+Como criar scripts externos de um pacote que você estiver criando utilizando o NPM, por exemplo, o
+
+Angular ali.
+
+Quando nós instalamos o Angular na nossa máquina, ele disponibiliza para gente um comando que se chama
+
+NG, que nós utilizamos para criar componentes, módulos, pipes, fazer o NG serv da nossa aplicação.
+
+Então isso é um script.
+
+Pedi que ele externaliza para gente e nós vamos fazer.
+
+Nós vamos ver como que isso funciona na criação do nosso pacote e também como funciona o comando MPX,
+
+que é um comando bem conhecido do NPM.
+
+Bom, esses são os conteúdos extras aqui do curso e aí você pode decidir, claro, como que você vai
+
+estudar eles, se você vai estudar ao mesmo tempo que você estuda Angular, se você vai ver todos os
+
+vídeos de Angular e depois vir para o conteúdo extra para complementar os seus estudos.
+
+Você pode decidir, mas eles estão aí e realmente são informações muito valiosas, informações diferenciadas
+
+de verdade, conteúdo avançado e que vai ter um impacto muito positivo na sua carreira como desenvolvedor.
+
+Espero que você tenha gostado desse vídeo e eu te vejo no próximo.
