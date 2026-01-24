@@ -1,0 +1,16 @@
+Configure o seu Ambiente de Desenvolvimento Angular do Zero (Youtube @DevFortin)
+
+Nessse vídeo eu te explico no detalhe as ferramentas necessárias para o desenvolvimento de aplicações Angular.
+
+
+Vou te mostrar como instalar o NodeJS, VsCode, NPM, AngularCLI.
+
+
+Além disso você vai aprender a como criar a sua primeira aplicação Angular em qualquer versão!!!
+
+
+Link do vídeo no meu canal do Youtube: https://www.youtube.com/watch?v=rwfvFST3Hp4&t=3s
+
+
+
+Bons estudos =)
