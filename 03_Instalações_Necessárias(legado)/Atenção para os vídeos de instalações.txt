@@ -1,0 +1,18 @@
+Atenção para os vídeos de instalações
+
+Olá aluno, tudo bem?
+
+
+Nessa sessão vamos fazer as instalações dos programas e pacotes necessários para a criação dos nossos projetos.
+
+
+Eu recomendo que você veja o vídeo uma vez sem fazer nenhuma instalação, e depois veja ele novamente fazendo as instalações necessárias. Dessa forma você evita de fazer o processo da forma errada.
+
+
+Você também vai notar que há os vídeos de instalações da versão 18 do NodeJS e 16 do Angular CLI, eu deixei esses vídeos mais por conta de curiosidade, já que há informações interessantes neles. Porém eu recomento a instalação da versão 20 do NodeJS junto com a versão 17 do Angular CLI.
+
+
+Te desejo ótimos estudos!
+
+   https://nodejs.org/en
+   https://www.npmjs.com/package/@angular/cli?activeTab=readme
