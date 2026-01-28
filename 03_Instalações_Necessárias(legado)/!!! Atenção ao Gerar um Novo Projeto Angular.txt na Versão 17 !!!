@@ -1,0 +1,18 @@
+!!! Atenção ao Gerar um Novo Projeto Angular na Versão 17 !!!
+
+Olá aluno, tudo bem?
+
+
+Quero te trazer uma informação muito importante em relação a versão 17.
+
+
+Caso você esteja utilizando a versão 17 do Angular, eu peço que você utilize o seguinte script para gerar um novo projeto:
+
+
+ng new NOME_DO_PROJETO --no-standalone
+
+
+Dessa forma, o projeto que será gerado se assemelhará com a estrutura de projetos que eu utilizo nos vídeos, já que será gerado o arquivo app.module.ts.
+
+
+Te desejo ótimos estudos!

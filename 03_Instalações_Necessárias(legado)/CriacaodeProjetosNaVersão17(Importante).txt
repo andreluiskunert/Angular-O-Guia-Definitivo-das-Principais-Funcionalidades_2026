@@ -1,0 +1,245 @@
+Seja muito bem vindo a mais um vídeo e nesse vídeo aqui e ele é muito importante, preste muita atenção
+
+nele.
+
+Eu quero falar como que você vai criar os projetos para os testes mesmo para me acompanhar nos exemplos.
+
+Caso você esteja utilizando a versão 17 do Angular.
+
+Esse vídeo aqui é muito importante porque pode dar alguma confusão se você não fizer o processo que
+
+eu vou falar.
+
+É o seguinte eu estou aqui com a grade curricular do curso e o curso até agora.
+
+Ele foi criado na versão 16 do Angular, porque ele já está sendo criado há um ano já.
+
+Então ele foi criado na versão 16.
+
+Isso você vai notar até a seção de template Driven Forms até o projeto de template driven forms que
+
+nós criarmos a partir das sessões de React forms que eu ainda vou gravar.
+
+Eu já vou estar utilizando a versão 17 do Angular.
+
+Bom, e o que é importante você notar aqui.
+
+Depois da sessão de boas vindas na sessão de instalações necessárias, eu pedi para você fazer a instalação
+
+da versão 17 do Angular.
+
+É realmente isso que eu quero.
+
+Bom, nesse caso aqui, quando você gera um projeto na versão 17 do Angular, ele vem com um componente
+
+na versão standalone e aí você pode acabar tendo alguma confusão, porque os projetos na versão 16 eles
+
+não vêm com standalone por padrão, então pode acabar tendo uma diferença ali.
+
+Então o que que acontece?
+
+Eu coloquei aqui os dois scripts e vai ter um script que eu quero que você sempre gere na hora que você
+
+for criar um projeto.
+
+Então, sempre que você for criar um projeto, você vai executar esse que eu vou falar, esse daqui.
+
+E hoje eu estou utilizando a versão 17 aqui na minha máquina.
+
+Se eu gero ng new test traço, vê 17 aqui, por exemplo, apenas dessa forma aqui.
+
+Para gerar um novo projeto, ele vai gerar um projeto com o componente, com o projeto, no caso com
+
+o app Component na versão standalone.
+
+Deixa eu mostrar aqui então, ele criaria esse projeto aqui para mim e dentro de APP você vai notar
+
+que a estrutura aqui é um pouquinho diferente.
+
+Ela não tem o app Model, no caso os projetos da versão 16, quando você gera esse comando aqui de ng
+
+new.
+
+Deixa eu só trazer.
+
+Caso você estivesse na versão 16 do Angular, ele criaria o app Model e você vai notar que é realmente
+
+isso que vai acontecer.
+
+Ao longo dos meus exemplos, ele vai gerar a App Model.
+
+Porém, nesse caso aqui, com a versão 17 executando o script dessa forma ele não gera episódio.
+
+Ele vai gerar o app Component no formato de standalone.
+
+Claro que você poderia seguir com os exemplos, normalmente com essa versão aqui, nesse formato, nessa
+
+estrutura, porém, para quem está começando agora, pode causar uma certa confusão.
+
+Então, o que eu vou te pedir?
+
+Quando você for gerar um novo projeto, independente se é para me acompanhar ou para fazer os seus testes
+
+locais, eu quero que você gere o projeto da seguinte forma ng new.
+
+O nome do seu projeto é a flag traço traço no traço standalone.
+
+Vou até aumentar aqui o tamanho, então vai ficar.
+
+Deixa eu colocar aqui ng new o nome do projeto, traço o traço no standalone.
+
+Dessa forma aqui ele vai criar o Angular e vai criar para você um projeto na versão 17, porém ele vai
+
+criar o app Model e aí ele vai ficar bem parecido com a estrutura dos projetos na versão 16, que são
+
+os exemplos que eu vou passar aqui ao longo do vídeo.
+
+Então se eu executo esse comando aqui, ele vai me gerar o seguinte projeto.
+
+Deixa eu trazer ele aqui, ele vai me gerar esse projeto aqui e dentro da app você vai notar que ele
+
+vai ter a app model.
+
+Então é dessa forma que eu quero que você crie os seus projetos, porque os meus projetos na versão
+
+16 elas vão ter, eles vão ter, no caso essa mesma estrutura.
+
+E para você não ter nenhuma confusão ali, não ficar confuso, é importante você criar dessa forma,
+
+então eu quero que você leve para o coração.
+
+Internalize essa flag aqui no Standalone.
+
+E por que é importante você sempre utilizar ela, principalmente se você estiver começando agora.
+
+Porque no dia a dia, no mercado de trabalho, a maioria, grande parte dos projetos que você participar
+
+vão estar utilizando essa estrutura aqui com a App Model, então é importante que você domine ela,
+
+que você compreenda muito bem essa estrutura, saiba utilizar ela muito bem, criar projetos com essa
+
+estrutura.
+
+Para depois você migrar para projetos utilizando apenas o standalone, que seria aqui o outro exemplo
+
+que eu trouxe.
+
+Então, nesse caso aqui utilizando apenas o standalone, nesse caso é importante que você domine essa
+
+estrutura aqui do app Model.
+
+Eu sou um caso desses, por exemplo, na minha empresa e nós estamos aqui em 2024.
+
+Eu não posso criar projetos maiores que a versão 15, então eu tenho que ir até a versão 15.
+
+E por que isso acontece?
+
+Porque o projeto ele tem dependências externas de bibliotecas que não suportam a partir da versão 15,
+
+não suportam a versão 16 nem a versão 17.
+
+Então eu fico preso até a versão 15.
+
+E na versão 15 eu vou ter essa mesma estrutura de app model.
+
+Então, no dia a dia, a grande maioria dos projetos que você vai trabalhar, você vai estar usando
+
+a API Model, então é importante você dominar ela.
+
+Então eu quero que você mentalize sempre quando você for criar um novo projeto, eu quero que você utilize
+
+essa flag.
+
+Traço o traço no traço standalone, isso se você estiver usando a versão 17 do Angular SQLite na sua
+
+máquina.
+
+Caso você estivesse usando a versão 16, não tem nenhum problema, você vai colocar o NG new normal
+
+e aí ele vai gerar um projeto automaticamente com essa estrutura.
+
+Já na versão 17 você precisa utilizar essa flag.
+
+Aqui é muito importante, porque aí você consegue me acompanhar nos exemplos sem muitas dificuldades.
+
+E aí também é importante, no caso aqui, você dominar essa estrutura.
+
+No caso aqui, deixa eu só voltar na grade curricular.
+
+Você vai notar que eu vou estar utilizando projetos na versão 16 até aqui a seção de template Driven
+
+Forms, então vou descer um pouquinho.
+
+Tem várias seções, então até o projeto de formulário de usuários Template Driven Forms, eles vão estar
+
+na versão 16 a partir dele, que vai ser o Active Forms, que é a próxima seção que eu vou criar.
+
+Vai estar com a versão 17, porém eu vou continuar utilizando essa estrutura com a App Model, porque
+
+ela é muito importante.
+
+A estrutura mais importante, que é a que você vai ver no mercado de trabalho, Então nós vamos dominar
+
+ela e depois eu vou mostrar como funciona certinho.
+
+O standalone tá bom, mas na seção de react forms eu mostro para você certinho.
+
+Eu vou utilizando esse comando aqui para gerar um novo projeto, tá bom?
+
+E note também isso eu expliquei também nessa seção de instalações e tudo mais que os meus projetos.
+
+Na versão 16 você consegue executar eles normalmente.
+
+Caso você tenha a versão 17 na sua máquina, então você pode fazer o npm install deles normalmente e
+
+depois o NG serve.
+
+Você não vai ter nenhum problema.
+
+Tá bom?
+
+Então pode ficar tranquilo em relação a isso.
+
+E aí no caso, sempre quando você ver que eu vou gerar um projeto, você vai ver eu executando esse
+
+comando aqui.
+
+NG new é o nome do projeto, só que aí no seu caso você vai executar esse comando aqui ng new.
+
+Nome do projeto e a flag no standalone é aqui.
+
+No caso só para você realmente criar o projeto vai ser da seguinte forma você vai abrir um terminal,
+
+poderia ser um terminal do Git também e você vai executar o comando que eu falei ng new.
+
+O nome do projeto por exemplo Projeto teste.
+
+Traço o traço no traço standalone.
+
+E vai executar aqui.
+
+Ele vai te pedir algumas coisas, ele vai te perguntar algumas coisinhas.
+
+É importante você respondê las certinho.
+
+Nesse caso aqui ele vai perguntar a sua folha de estilo.
+
+Você coloca a segunda opção SSSS aqui na setinha e clique em Enter.
+
+E aí depois disso ele vai perguntar se você quer utilizar o server side rendering.
+
+Nesse caso você pode colocar n para não coloca n enter e aí sim ele vai começar a instalação dos pacotes
+
+e vai finalizar normalmente.
+
+Você vai poder entrar dentro desse projeto, executar o NG serv e assim por diante.
+
+Tá bom?
+
+Espero que você tenha gostado desse vídeo.
+
+Caso você ainda tenha alguma dúvida, pode deixar aqui na seção de comentários que eu vou ver a melhor
+
+forma de sanar essa sua dúvida.
+
+Espero então que você tenha gostado e eu te vejo no próximo vídeo.
