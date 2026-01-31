@@ -117,6 +117,272 @@ bootstrap e módulos podem parecer confusos no início, mas com a prática tudo 
    <p>  - Shades of Purple </p>
    <p>- Ayu  </p>   
    </h4>
+   <hr>
+    <h2> Introdução do capitulo</h2>
+    <p>
+      Seja muito bem vindo a mais uma seção E nessa seção aqui nós vamos começar com os conceitos principais
+
+de Angular. </p> <p>
+  É aqui que realmente nós vamos dar o pontapé inicial no nosso curso.
+
+Essa seção aqui ela vai estar focada no conceito de componente criação de componentes utilizando módulos
+
+também e as estratégias de estilização dos componentes as principais estratégias.
+
+Então, ao final dessa seção você vai saber criar componentes.
+</p>
+<p>
+Você vai saber identificar um componente quando criar um componente e também as principais formas de
+
+estilizar os conteúdos dentro desse componente, certo?
+
+Então aqui eu tenho uma listinha dos assuntos que nós vamos tratar nessa seção.
+
+É uma seção extremamente importante.
+
+E vamos lá.
+
+</p>
+
+<p>
+Primeiro, nós vamos começar vendo o conceito de componente.
+
+O que seria um componente?
+
+Quando que eu crio um componente?
+
+Vamos ver.
+
+</p>
+<p>
+  Já que em um projeto angular, como criar um componente, como criar vários componentes e também utilizar
+
+eles declarando nos módulos?
+
+Porque quando eu crio um componente eu preciso declarar ele dentro de um módulo.
+
+Então nós vamos ver a ligação entre um componente e um módulo.
+</p>
+<p>
+
+Também vamos ver os problemas de duplicação de componentes.
+
+Então, vamos supor que eu tenha dois componentes que tenham as mesmas responsabilidades e responsabilidades
+
+bem parecidas e eu crie dois componentes.
+
+Assim eu vou ter problemas de gerenciamento de manutenção desses componentes, porque muitas funcionalidades
+
+elas vão estar duplicadas.
+</p>
+<p>
+  Então nós vamos dar uma olhada nesse caso.
+
+Aqui também vamos aprender como criar componentes filhos.
+
+Então como que eu crio um componente?
+
+Faço desse componente um componente filho de um componente pai.
+</p>
+<p>
+  Nós vamos ver aqui nessa seção vamos ver como referenciar componentes de outros módulos dentro de um
+
+outro componente de outro módulo.
+
+Então, vamos supor que na minha aplicação eu tenha dois módulos.
+
+Cada módulo tem um componente.
+
+Como que eu referencio o componente desse módulo?
+
+Nenhum componente de outro módulo.
+</p>
+<p>
+  Nós vamos ver nesse vídeo aqui também como utilizar os esportes os imports de um módulo.
+
+Bom, vamos ver como utilizar a interpolação, que é uma funcionalidade extremamente importante do Angular
+
+para acessar propriedades da classe do meu componente.
+
+Então vamos supor que o meu componente tenha um objeto.
+
+A classe do meu componente tem um objeto.
+
+Eu quero acessar as propriedades, os valores das propriedades desse objeto no meu template, lá no
+
+HTML.
+</p>
+
+<p>
+  Para isso nós vamos utilizar a interpolação e nós vamos ver nessa seção como utilizar ela.
+
+Além disso, nós vamos ver as principais estratégias de estilização do componente.
+
+Nós vamos ver como criar um template inline, Um CSS inline também são funcionalidades bem importantes.
+
+Vamos ver como utilizar o seletor ng dip e também o seletor dois pontos host.
+
+Esses dois seletores também são bem importantes.
+</p>
+
+<p>
+
+Eles podem causar em algumas pessoas, principalmente para quem está começando agora alguma confusão,
+
+porque são alguns detalhezinhos.
+
+Porém, aqui eu não quero que você decore todos os detalhes do NG DIP ou do host.
+
+Eu quero que você pegue a essência de utilização deles, porque eventualmente você vai esquecer um detalhe
+
+ou outro, então não se martirize por conta disso.
+</p>
+
+<p>
+  Isso acontece comigo também, porém é importante você saber a essência de utilização dele.
+
+A ideia geral de como utilizar o NG DIP em conjunto com o host também.
+
+E por fim, nós vamos ver sobre views encapsulados com a opção None Emulator e Shadow DOM com view encapsulados
+
+eu consigo mudar a forma que o meu componente trabalha com as estilizações da minha aplicação e aqui
+
+é a mesma coisa.
+
+</p>
+<p>
+
+São alguns detalhezinhos também, porém eu quero que você pegue a essência, Eu não quero que você decore,
+
+porque ao longo dos vídeos aqui do nosso curso, ao longo das sessões, nós vamos acabar praticando.
+
+Nós vamos acabar revendo esses conceitos nos projetos que nós vamos criar aqui ao longo do curso.
+
+Então não quero que você decore.
+
+</p>
+
+<p>
+  Eu quero que você realmente saiba a essência de utilização ali dele, certo?
+
+Bom, nessa sessão aqui nós vamos criar um projeto inicial.
+
+Na verdade, para você me acompanhar ao longo dos vídeos, eu quero que você crie um projetinho, crie
+
+uma pasta para essa sessão e dentro dessa pasta você vai criar um projetinho.
+
+E aí ao longo dos vídeos nós vamos estar modificando esse projeto.
+
+Mas basicamente eu vou estar fazendo um exemplo aqui com você ao longo dessa sessão, que é a criação
+
+desses dois cards.
+</p>
+<p>
+  E aí nós vamos explorar diversas funcionalidades do Angular aqui dentro desse projeto.
+
+Estratégias de.
+
+Lização.
+
+Interpolação.
+
+Criação de componentes.
+
+Filhos.
+
+Criação de componentes Também e utilização de módulos.
+
+Bom, essa seção aqui é extremamente importante.
+</p>
+<p>
+  Vá no seu tempo, principalmente se você estiver começando agora.
+
+Não se assuste se você não entender uma coisa ou outra, um conceito ou outro, está tudo certo.
+
+Continue com os vídeos, acredite no processo, porque ao longo do curso aqui nós vamos revisitar diversos
+
+conceitos que nós vamos ver nessa seção.
+
+Então não tem problema se você esquecer uma coisa ou outra, não entender uma coisinha ou outra, está
+
+tudo certo.
+</p>
+<p>
+
+Pode ir para o próximo vídeo com tranquilidade que nós vamos revisitar esses conceitos.
+
+Bom, espero que você tenha gostado desse vídeo.
+
+Espero que você esteja animado para essa sessão e eu te vejo no próximo vídeo para gente dar o pontapé
+
+inicial aqui no aprendizado do Angular.
+
+Então até o próximo vídeo!
+
+</p>
+  <h4>
+    
+      <h2>📌 Conceitos principais do Angular</h2>
+
+<ul>
+  <li>
+    <strong>Componentes:</strong> são partes reutilizáveis da interface que encapsulam
+    <strong>layout + lógica</strong>. Evitam repetição de código e facilitam a manutenção.
+  </li>
+
+  <li>
+    <strong>Reutilização:</strong> quando um layout se repete (cards, botões, menus),
+    o ideal é criar um componente e reutilizá-lo passando dados dinâmicos.
+  </li>
+
+  <li>
+    <strong>Componentes pai e filho:</strong> um componente pode organizar outros
+    componentes dentro dele, criando uma hierarquia.
+  </li>
+
+  <li>
+    <strong>Isolamento de lógica:</strong> mesmo que um componente seja usado só uma vez,
+    ele ajuda a deixar o código mais organizado e facilita a correção de bugs.
+  </li>
+
+  <li>
+    <strong>Análise antes de codar:</strong> sempre analisar o layout antes de criar
+    componentes para evitar código acoplado e baixa produtividade.
+  </li>
+
+  <li>
+    <strong>Módulos:</strong> servem para organizar componentes relacionados,
+    geralmente por tela ou funcionalidade.
+  </li>
+
+  <li>
+    <strong>Declaração vs Importação:</strong>
+    <ul>
+      <li>Componentes são <strong>declarados</strong> em apenas um módulo</li>
+      <li>Módulos são <strong>importados</strong></li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Exportação:</strong> se um componente precisa ser usado em outros módulos,
+    ele deve ser <strong>exportado pelo módulo</strong>, e não importado diretamente.
+  </li>
+
+  <li>
+    <strong>Boa prática:</strong> sempre tirar dúvidas da regra de negócio antes de
+    começar a codificar.
+  </li>
+</ul>
+
+
+    
+    <p>
+       Descreve sobre componentes e Modulos
+       <a href="https://dribbble.com/shots/17656097-Cryptocurrency-dashboard"> Exemplo1</a>
+       <a href="https://dribbble.com/shots/22079227-Mobile-banking-app-for-teenagers">Exemplo2</a>
+       <a href="https://dribbble.com/shots/22079227-Mobile-banking-app-for-teenagers">Exemplo3</a>
+    </p>
+  </h4>
  
  <hr> 
 
