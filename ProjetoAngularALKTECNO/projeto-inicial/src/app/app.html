@@ -373,7 +373,7 @@ Então até o próximo vídeo!
     começar a codificar.
   </li>
 </ul>
-
+ <marquee> Explicar cada tela diferente</marquee>
 
     
     <p>
@@ -385,6 +385,100 @@ Então até o próximo vídeo!
   </h4>
  
  <hr> 
+ <h2><a href=" http://localhost:45205/" target="_blank", rel="Pra abrir na pasta ao segurei o CRTL e clique com o mouse sobre o linkk">Criação de Componentes_1ªparte:</a>  </h2>
+ <h4>
+  <p>
+Neste vídeo é apresentado o processo de criação de <strong>cards em um projeto Angular</strong>,
+utilizando componentes reutilizáveis.
+</p>
 
+<h3>Objetivo do Vídeo</h3>
+<ul>
+  <li>Criar dois cards dentro de um projeto Angular</li>
+  <li>Criar um componente para cada card</li>
+  <li>Analisar se vale a pena criar componentes separados quando o layout é o mesmo</li>
+</ul>
+
+<h3>Criação do Projeto Angular</h3>
+<p>
+O projeto utilizado é simples e vazio, criado com o Angular versão 16.
+A criação é feita via terminal com o comando <code>ng new</code>,
+sem rotas e utilizando CSS como padrão.
+</p>
+
+<h3>Execução do Projeto</h3>
+<p>
+O projeto é executado utilizando o comando <code>ng serve</code>,
+que inicia um servidor local acessível pelo navegador em
+<code>http://localhost:4200</code>.
+</p>
+
+<h3>App Component</h3>
+<p>
+O <strong>AppComponent</strong> é o primeiro componente carregado no Angular,
+pois ele é inicializado pelo <strong>AppModule</strong>.
+Inicialmente, seu HTML é limpo para deixar a página vazia.
+</p>
+
+<h3>Criação do Card Component</h3>
+<p>
+O componente de card é criado com o comando:
+<code>ng generate component card</code>.
+Esse comando cria automaticamente:
+</p>
+
+<ul>
+  <li>HTML do componente</li>
+  <li>Arquivo de estilos (CSS)</li>
+  <li>Classe TypeScript do componente</li>
+  <li>Arquivo de testes (spec)</li>
+</ul>
+
+<h3>Estrutura do Componente</h3>
+<p>
+Todo componente Angular é uma classe decorada com <code>@Component</code>.
+As principais propriedades do decorator são:
+</p>
+
+<ul>
+  <li><strong>selector</strong>: nome da tag usada no HTML</li>
+  <li><strong>templateUrl</strong>: caminho do HTML do componente</li>
+  <li><strong>styleUrls</strong>: arquivos de estilo do componente</li>
+</ul>
+
+<h3>Uso do Componente</h3>
+<p>
+O componente de card é utilizado dentro do HTML do AppComponent
+por meio de sua tag personalizada, carregando automaticamente
+seu HTML e estilos.
+</p>
+
+<h3>Módulos no Angular</h3>
+<p>
+Todo componente precisa estar declarado em um módulo
+(exceto componentes standalone).
+No exemplo, o <strong>CardComponent</strong> é declarado no
+<code>AppModule</code>, dentro da propriedade <code>declarations</code>.
+</p>
+
+<ul>
+  <li>Componentes e pipes → <strong>declarations</strong></li>
+  <li>Módulos → <strong>imports</strong></li>
+</ul>
+
+<h3>AppModule</h3>
+<p>
+O <strong>AppModule</strong> é o módulo principal da aplicação.
+Ele é carregado primeiro e faz o bootstrap do AppComponent.
+</p>
+
+<h3>Conclusão</h3>
+<p>
+O vídeo explica a base da estrutura de componentes e módulos no Angular.
+Na próxima parte, será criado o layout dos cards e analisado se
+realmente vale a pena manter componentes separados com o mesmo layout.
+</p>
+ </h4>
+<hr>
 
 <router-outlet></router-outlet>
