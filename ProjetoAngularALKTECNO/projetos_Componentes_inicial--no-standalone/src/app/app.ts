@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('projeto-inicial');
+  protected readonly title = signal('projetos_Componentes_inicial--no-standalone');
 }

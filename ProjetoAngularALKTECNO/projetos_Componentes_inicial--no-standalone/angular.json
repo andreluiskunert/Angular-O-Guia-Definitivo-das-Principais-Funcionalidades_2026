@@ -3,11 +3,11 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "fddbd7ca-2e2f-4cf9-9151-e577ec57a93d"
+    "analytics": "7fad45ce-91ec-4e2e-a2f2-e73cb4614f84"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "projeto-inicial": {
+    "projetos_Componentes_inicial--no-standalone": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -32,12 +32,7 @@
             ],
             "styles": [
               "src/styles.scss"
-            ],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            ]
           },
           "configurations": {
             "production": {
@@ -67,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "projeto-inicial:build:production"
+              "buildTarget": "projetos_Componentes_inicial--no-standalone:build:production"
             },
             "development": {
-              "buildTarget": "projeto-inicial:build:development"
+              "buildTarget": "projetos_Componentes_inicial--no-standalone:build:development"
             }
           },
           "defaultConfiguration": "development"
