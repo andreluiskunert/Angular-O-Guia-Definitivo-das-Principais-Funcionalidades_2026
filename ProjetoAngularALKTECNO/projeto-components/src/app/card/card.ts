@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './card.scss',
 })
 export class Card {
-
+  // Lógica do componente pode ser adicionada aqui
+  
 }
